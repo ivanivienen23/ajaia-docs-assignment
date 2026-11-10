@@ -39,4 +39,7 @@ class H(BaseHTTPRequestHandler):
   q=json.loads(self.rfile.read(int(self.headers.get('Content-Length',0))));d=load();x=next(x for x in d['documents'] if x['id']==self.path.split('/')[-1]);user=self.headers.get('X-User','ivan');share=next((z for z in d.get('shares',[]) if z['document']==x['id'] and z['user']==user),None)
   if x['owner']!=user and (not share or share.get('role')!='editor'): return self.j({'error':'Read-only document'},403)
   d.setdefault('versions',[]).append({'document':x['id'],'title':x.get('title'),'content':x.get('content'),'timestamp':__import__('datetime').datetime.now().isoformat()});x.update(q);save(d);self.j(x)
-os.makedirs(R+'/static',exist_ok=True);ThreadingHTTPServer(('127.0.0.1',8000),H).serve_forever()
+os.makedirs(R+'/static',exist_ok=True)
+if __name__ == '__main__':
+ port=int(os.environ.get('PORT','8000'))
+ ThreadingHTTPServer(('0.0.0.0',port),H).serve_forever()

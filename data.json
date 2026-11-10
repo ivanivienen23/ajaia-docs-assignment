@@ -1,0 +1,123 @@
+{
+  "documents": [
+    {
+      "id": "4dc100b8",
+      "title": "Untitled document",
+      "content": "<p></p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "0e8cf6d9",
+      "title": "Untitled document",
+      "content": "<p></p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "4e40c3d5",
+      "title": "Prueba",
+      "content": "<p></p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "b4ae346d",
+      "title": "DOcumento Ivan",
+      "content": "Hola",
+      "owner": "ivan"
+    },
+    {
+      "id": "c63fc2a5",
+      "title": "Formato",
+      "content": "<p>ok</p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "4f7536cd",
+      "title": "Shared test",
+      "content": "<p></p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "6b7b3edd",
+      "title": "Untitled document",
+      "content": "<p></p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "a114b403",
+      "title": "Demo sharing",
+      "content": "<p></p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "be732c84",
+      "title": "Visible para Grace",
+      "content": "<p></p>",
+      "owner": "ivan"
+    },
+    {
+      "id": "9818218a",
+      "title": "DOcumento Ivan.md",
+      "content": "<p>Hola</p>",
+      "owner": "ivan"
+    }
+  ],
+  "shares": [
+    {
+      "document": "b4ae346d",
+      "user": "grace"
+    },
+    {
+      "document": "b4ae346d",
+      "user": "grace",
+      "role": "viewer"
+    }
+  ],
+  "users": [
+    "ivan",
+    "grace"
+  ],
+  "comments": [
+    {
+      "id": "59b25217",
+      "document": "b4ae346d",
+      "user": "grace",
+      "text": "Esta chulo"
+    }
+  ],
+  "versions": [
+    {
+      "document": "b4ae346d",
+      "title": "DOcumento Ivan",
+      "content": "<i><b><u>Hola!</u></b></i>",
+      "timestamp": "2026-11-10T23:53:32.374510"
+    },
+    {
+      "document": "b4ae346d",
+      "title": "DOcumento Ivan",
+      "content": "<br>",
+      "timestamp": "2026-11-10T23:53:51.431127"
+    },
+    {
+      "document": "b4ae346d",
+      "title": "DOcumento Ivan",
+      "content": "<br>",
+      "timestamp": "2026-11-10T23:56:14.824914"
+    },
+    {
+      "document": "b4ae346d",
+      "title": "DOcumento Ivan",
+      "content": "Hol",
+      "timestamp": "2026-11-10T23:56:15.142950"
+    },
+    {
+      "document": "b4ae346d",
+      "title": "DOcumento Ivan",
+      "content": "Hola",
+      "timestamp": "2026-11-10T23:56:17.518704"
+    }
+  ],
+  "presence": {
+    "ivan": 1794352768.0252683,
+    "grace": 1794352767.3180816
+  }
+}

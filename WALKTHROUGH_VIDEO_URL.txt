@@ -1,0 +1,3 @@
+VIDEO_URL_TO_ADD_AFTER_RECORDING
+
+Outline: goal; Ivan create/edit/save; format/import; share and Grace read-only; persistence/presence; architecture, AI workflow and scope cuts.
